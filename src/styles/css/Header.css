@@ -1,0 +1,17 @@
+header {
+  background-image: url("/banner-top.webp");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+header li {
+  cursor: pointer;
+}
+
+.menu-line ul {
+  float: right;
+}
+.menu-line ul li > * {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=Header.css.map */

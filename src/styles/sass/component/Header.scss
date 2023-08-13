@@ -1,0 +1,18 @@
+header{
+    background-image: url("/banner-top.webp");
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+    li{
+        cursor: pointer;
+    }
+}
+.menu-line{
+    ul{
+        float: right;
+        li >*{
+            text-decoration: none;
+            color:white
+        }
+    }
+}

@@ -1,0 +1,108 @@
+header {
+  background-image: url("/banner-top.webp");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+header li {
+  cursor: pointer;
+}
+
+.menu-line ul {
+  float: right;
+}
+.menu-line ul li > * {
+  text-decoration: none;
+  color: white;
+}
+
+.description {
+  left: 100px;
+}
+.description * {
+  color: white;
+}
+.description h1 {
+  font-size: 60px;
+}
+
+.achivement {
+  top: 90%;
+  left: 25%;
+}
+.achivement * {
+  color: white;
+}
+.achivement h2 {
+  font-size: 40px;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.project-header {
+  position: relative;
+}
+
+.project-header::before, .project-header::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -50%;
+  border-bottom: 2px solid grey;
+}
+
+.project-header::before {
+  left: -110%;
+}
+
+.project-header::after {
+  right: -110%;
+}
+
+.main-bussiness h3 {
+  font-size: large;
+}
+
+.service {
+  background-color: #423F3D;
+}
+.service h4 {
+  font-size: 30px;
+}
+.service .show {
+  opacity: 1;
+}
+
+.service-inner {
+  opacity: 0;
+  transition: 1s;
+}
+
+.about-header {
+  background-image: url("/about/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.about-main {
+  background-color: #D0D0D0;
+}
+
+.quote {
+  background-image: url("/about/caycau.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.commitment {
+  width: 100%;
+  top: 70%;
+}
+.commitment p {
+  font-size: x-small;
+}/*# sourceMappingURL=main.css.map */

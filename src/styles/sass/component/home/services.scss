@@ -1,0 +1,14 @@
+@use '../../abstract/index.scss' as i;
+.service{
+    background-color: i.$service-bg;
+    h4{
+        font-size: 30px;
+    }
+    .show{
+        opacity: 1;
+    }
+}
+.service-inner{
+    opacity: 0;
+    transition: 1s;
+}

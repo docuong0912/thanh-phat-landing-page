@@ -1,0 +1,49 @@
+.description {
+  left: 100px;
+}
+.description * {
+  color: white;
+}
+.description h1 {
+  font-size: 60px;
+}
+
+.achivement {
+  top: 90%;
+  left: 25%;
+}
+.achivement * {
+  color: white;
+}
+.achivement h2 {
+  font-size: 40px;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.project-header {
+  position: relative;
+}
+
+.project-header::before, .project-header::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -50%;
+  border-bottom: 2px solid grey;
+}
+
+.project-header::before {
+  left: -110%;
+}
+
+.project-header::after {
+  right: -110%;
+}
+
+.main-bussiness h3 {
+  font-size: large;
+}/*# sourceMappingURL=hero.css.map */

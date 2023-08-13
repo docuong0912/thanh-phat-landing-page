@@ -1,0 +1,24 @@
+@use '../../abstract/index.scss' as i;
+.about-header{
+    background-image: url('/about/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.about-main{
+    background-color: i.$about-main;
+   
+}
+.quote{
+    background-image: url('/about/caycau.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.commitment{
+    width: 100%;
+    top:70%;
+    p{
+        font-size: x-small;
+    }
+}

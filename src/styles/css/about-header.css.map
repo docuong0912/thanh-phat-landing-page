@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/component/about/about-header.scss","about-header.css","../sass/abstract/_color.scss"],"names":[],"mappings":"AACA;EACI,6CAAA;EACA,4BAAA;EACA,sBAAA;EACA,YAAA;ACAJ;;ADEA;EACI,yBEPQ;ADQZ;;ADEA;EACI,0CAAA;EACA,4BAAA;EACA,sBAAA;EACA,aAAA;ACCJ;;ADCA;EACI,WAAA;EACA,QAAA;ACEJ;ADDI;EACI,kBAAA;ACGR","file":"about-header.css"}

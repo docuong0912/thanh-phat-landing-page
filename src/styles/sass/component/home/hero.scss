@@ -1,0 +1,42 @@
+@use '../../abstract/index.scss' as i;
+.description{
+    left: 100px;
+    *{
+        color: white;
+    }
+    h1{
+        font-size: 60px;
+    }
+}
+.achivement{
+    top:90%;
+    left: 25%;
+    *{
+        color:white;
+    }
+    h2{
+        font-size: 40px;
+    }
+ 
+}
+.projects{
+    margin-top: 150px;
+}
+.project-header{
+    @include i.title-header;
+    
+}
+.project-header::before,.project-header::after{
+    @include i.BAF;
+}
+.project-header::before{
+    @include i.before;
+}
+.project-header::after{
+    @include i.after;
+}
+.main-bussiness{
+    h3{
+        font-size: large;
+    }
+}

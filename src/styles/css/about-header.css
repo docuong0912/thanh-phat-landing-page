@@ -1,0 +1,25 @@
+.about-header {
+  background-image: url("/about/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.about-main {
+  background-color: #D0D0D0;
+}
+
+.quote {
+  background-image: url("/about/caycau.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.commitment {
+  width: 100%;
+  top: 70%;
+}
+.commitment p {
+  font-size: x-small;
+}/*# sourceMappingURL=about-header.css.map */
