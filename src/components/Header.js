@@ -21,7 +21,7 @@ const Header = () => {
                 <li className='d-inline-block mx-4'><Link href={'/about'}>Giới thiệu</Link></li>
                 <li className='d-inline-block mx-4'>Dịch vụ</li>
                 <li className='d-inline-block mx-4'><Link href={'/news'}>Tin tức</Link></li>
-                <li className='d-inline-block mx-4'><Link href={'/news'}>Liên hệ</Link></li>
+                <li className='d-inline-block mx-4'><Link href={'/contact'}>Liên hệ</Link></li>
             </ul>
         </div>
     </header>
